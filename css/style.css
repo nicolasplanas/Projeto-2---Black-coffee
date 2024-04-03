@@ -1,0 +1,345 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+:root {
+  --branco: #ffffff;
+  --preto:  #0B1D03;
+  --cinza: #969696;
+  --cafe: #A0996C;
+  --fundo: #FFFCF6;
+  --footer: #F7F1E6;
+}
+
+body {
+  margin: 0;
+  color: var(--preto);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  color: var(--branco);
+  font-family: 'Playfair Display' sans-serif;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 1600px;
+}
+
+header span {
+  font-style: italic;
+}
+
+.button-header {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.banner {
+  display: inline-block;
+}
+
+.banner-elements {
+  position: absolute;
+  margin: 250px 80px;
+}
+
+.banner-title h1 {
+  width: 704px;
+  height: 264px;
+  line-height: 88px;
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--branco);
+}
+
+.banner-title p {
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--branco);
+}
+
+.banner-arrows {
+  cursor: pointer;
+}
+
+.banner-image {
+  width: 1600px;
+  height: 900px;
+}
+
+.highlights {
+  background-color: var(--fundo);
+  width: 1600px;
+  padding: 100px 0px 0px 0px;
+}
+
+.highlights-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+
+.highlights-elements h1 {
+  color: var(--preto);
+  font-family: 'Playfair Display' sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+}
+
+.highlights-elements p {
+  color: var(--preto);
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  width: 481px;
+  height: 160px;
+}
+
+.varieties {
+  background-color: var(--fundo);
+  width: 1600px;
+}
+
+.varieties h1 {
+  font-family: 'Playfair Display' sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--cafe);
+  margin-left: 80px;
+}
+
+.variety-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px 80px 100px 80px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 459px;
+  height: 560px;
+  border: 11px solid transparent;
+  background-clip: padding-box;
+  background-color: var(--footer);
+}
+
+.cards p {
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.cards img {
+  width: 172px;
+  height: 216px;
+}
+
+.preco {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.preco span {
+  font-weight: 800;
+  font-size: 32px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: var(--preto);
+}
+
+.preco p span {
+  font-weight: 300;
+  font-size: 24px;
+  color: var(--cinza);
+}
+
+.cards button {
+  color: var(--branco);
+  font-family: 'Open Sans' sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  width: 395px;
+  height: 76px;
+  border-radius: 4px;
+  background-color: var(--preto);
+}
+
+.mid-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 1600px;
+  background-color: var(--fundo);
+}
+
+.mid-section img {
+  padding: 100px 0px 0px 0px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0px 200px 0px;
+}
+
+.benefits-elements img {
+  display: inline-block;
+}
+
+.benefits-elements h1 {
+  position: absolute;
+  margin: -160px 40px;
+  color: var(--fundo);
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.benefits-elements p {
+  position: absolute;
+  margin: -80px 40px;
+  color: var(--fundo);
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  width: 451px;
+  height: 48px;
+  line-height: 26px;
+}
+
+.find-store {
+  background-color: var(--branco);
+  padding: 0px 0px 50px 0px;
+}
+
+.find-store h1 {
+  font-family: 'Playfair Display' sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  color: var(--preto);
+}
+
+.choice {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 30px 0px;
+}
+
+.choice-city {
+  display: flex;
+  width: 459px;
+  height: 76px;
+  border: 2px solid var(--preto);
+  border-radius: 5px;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.choice-city span {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--cinza);
+}
+
+.choice-address {
+  display: flex;
+  width: 949px;
+  height: 76px;
+  border: 2px solid var(--preto);
+  border-radius: 5px;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.choice-address span {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--cinza);
+}
+
+iframe {
+  width: 1440px;
+  height: 512px;
+}
+
+footer {
+  width: 1600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: var(--footer);
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.brand {
+  font-family: 'Playfair Display' sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--preto);
+  margin: 26px 80px;
+}
+
+.brand span {
+  font-style: italic;
+}
+
+h6 {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+ul {
+  font-family: 'Open Sans' sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+}
+
+.credits {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 0 20px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.credits p {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.credits img {
+  margin-left: 6px;
+  width: 110px;
+}
