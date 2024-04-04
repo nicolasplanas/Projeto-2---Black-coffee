@@ -134,7 +134,7 @@ header span {
   align-items: center;
   width: 459px;
   height: 560px;
-  border: 11px solid transparent;
+  border: 10px solid transparent;
   background-clip: padding-box;
   background-color: var(--footer);
 }
@@ -178,6 +178,7 @@ header span {
   line-height: 28px;
   width: 395px;
   height: 76px;
+  cursor: pointer;
   border-radius: 4px;
   background-color: var(--preto);
 }
@@ -241,6 +242,10 @@ header span {
   display: flex;
   justify-content: space-between;
   padding: 0px 0px 30px 0px;
+}
+
+.choice img {
+  cursor: pointer;
 }
 
 .choice-city {
