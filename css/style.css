@@ -89,7 +89,7 @@ header span {
   margin-bottom: 200px;
 }
 
-.highlights-elements h1 {
+.highlights-elements h2 {
   color: var(--preto);
   font-family: 'Playfair Display' sans-serif;
   font-weight: 700;
@@ -111,7 +111,7 @@ header span {
   width: 1600px;
 }
 
-.varieties h1 {
+.varieties h2 {
   font-family: 'Playfair Display' sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -156,7 +156,7 @@ header span {
   align-items: center;
 }
 
-.preco span {
+.preco1 {
   font-weight: 800;
   font-size: 32px;
   margin-left: 5px;
@@ -164,7 +164,7 @@ header span {
   color: var(--preto);
 }
 
-.preco p span {
+.preco2 {
   font-weight: 300;
   font-size: 24px;
   color: var(--cinza);
@@ -205,7 +205,7 @@ header span {
   display: inline-block;
 }
 
-.benefits-elements h1 {
+.benefits-elements h2 {
   position: absolute;
   margin: -160px 40px;
   color: var(--fundo);
@@ -231,7 +231,7 @@ header span {
   padding: 0px 0px 50px 0px;
 }
 
-.find-store h1 {
+.find-store h2 {
   font-family: 'Playfair Display' sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -244,25 +244,32 @@ header span {
   padding: 0px 0px 30px 0px;
 }
 
-.choice img {
-  cursor: pointer;
-}
-
 .choice-city {
   display: flex;
+  position: relative;
   width: 459px;
   height: 76px;
   border: 2px solid var(--preto);
   border-radius: 5px;
   align-items: center;
-  justify-content:space-between;
 }
 
-.choice-city span {
+.choice-city input {
+  display: block;
+  border: 0;
+  width: 459px; 
+  height: 74px;
   font-family: 'Open Sans' sans-serif;
   font-size: 20px;
   font-weight: 300;
+  padding-left: 25px;
   color: var(--cinza);
+}
+
+.choice-city img {
+  position: absolute;
+  top: 23px;
+  right: 15px;
 }
 
 .choice-address {
@@ -272,14 +279,23 @@ header span {
   border: 2px solid var(--preto);
   border-radius: 5px;
   align-items: center;
-  justify-content:space-between;
+  cursor: text;
 }
 
-.choice-address span {
+.choice-address input {
+  display: block;
+  border: 0;
+  padding-right: 670px; 
+  height: 74px;
   font-family: 'Open Sans' sans-serif;
   font-size: 20px;
   font-weight: 300;
+  padding-left: 25px;
   color: var(--cinza);
+}
+
+.choice-address img {
+  margin-left: -45px;
 }
 
 iframe {
