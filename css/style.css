@@ -67,7 +67,9 @@ header span {
   color: var(--branco);
 }
 
-.banner-arrows {
+.banner-arrows button {
+  background-color: transparent;
+  border: none;
   cursor: pointer;
 }
 
@@ -84,9 +86,9 @@ header span {
 
 .highlights-elements {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 200px;
+  flex-wrap: wrap;
+  align-items: start;
 }
 
 .highlights-elements h2 {
@@ -120,8 +122,12 @@ header span {
 }
 
 .variety-cards {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  column-gap: 10px;
+  row-gap: 20px;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 10px 80px 100px 80px;
@@ -134,8 +140,6 @@ header span {
   align-items: center;
   width: 459px;
   height: 560px;
-  border: 10px solid transparent;
-  background-clip: padding-box;
   background-color: var(--footer);
 }
 
